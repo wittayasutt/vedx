@@ -1,0 +1,39 @@
+@import url(../font-awesome/css/font-awesome.min.css);
+@font-face {
+  font-family: 'Kanit';
+  font-style: normal;
+  font-weight: 200;
+  src: local('Kanit-Light'), url(../fonts/Kanit/Kanit-Light.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Kanit';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Kanit-Regular'), url(../fonts/Kanit/Kanit-Regular.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Kanit';
+  font-style: bold;
+  font-weight: 700;
+  src: local('Kanit-Bold'), url(../fonts/Kanit/Kanit-Bold.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Roboto-Regular'), url(../fonts/Roboto/Roboto-Regular.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: bold;
+  font-weight: 700;
+  src: local('Roboto-Bold'), url(../fonts/Roboto/Roboto-Bold.ttf) format('truetype');
+}
+
+.roboto {
+  font-family: 'Roboto' !important;
+}
