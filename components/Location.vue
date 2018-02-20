@@ -16,6 +16,7 @@
   	flex-direction: column;
   	justify-content: space-between;
   	background: #ffffff;
+  	font-size: 16px;
   	margin-top: 62px;
   	margin-left: 32px;
   	padding: 32px 24px;
@@ -25,6 +26,7 @@
 
   	p.light {
   		font-weight: 200;
+  		font-size: 14px;
   	}
 
   	.line {
@@ -34,16 +36,12 @@
   	}
   }
 
-  @media screen and (max-width: 768px) {
-  	section.location {
-  		margin-left: auto;
-  	}
-  }
-
   @media screen and (max-width: 948px) {
   	section.location {
   		margin-top: 16px;
   		margin-left: auto;
+  		height: 238px;
+  		padding: 24px 16px;
   	}
   }
 </style>

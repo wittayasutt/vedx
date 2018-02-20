@@ -28,21 +28,27 @@
   			border: 1px solid #ffffff;
   			padding: 30px 22px;
   			border-radius: 10px;
+  			font-size: 20px;
   			text-align: center;
   		}
   	}
   }
 
-  @media screen and (max-width: 768px) {
-  	section.slogan {
-  	}
-  }
-
   @media screen and (max-width: 948px) {
   	section.slogan {
+  		.text {
+  			font-size: 20px;
+  			margin: 56px auto;
+  			padding: 16px;
+  		}
+
   		.quoteBorder {
   			width: auto;
   			margin: 16px;
+
+  			.quote {
+  				font-size: 14px;
+  			}
   		}
   	}
   }
